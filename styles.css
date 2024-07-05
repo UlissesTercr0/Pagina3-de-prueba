@@ -1,0 +1,68 @@
+
+/* Estilos generales */
+nav {
+    background: #1D1D11;
+    display: flex;
+    padding: 30px 0;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.Etiquetas {
+    color: #fff;
+    background: grey;
+    padding: 10px 20px;
+    text-decoration: none;
+}
+
+footer {
+    background: #1D1D11;
+    padding: 20px 0px;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.contenido {
+    margin-bottom: 200px;
+    margin-top: 10px;
+}
+
+/* Estilos para enlaces */
+.Etiquetas:hover {
+    background: #fff;
+    color: #1D1D11;
+}
+
+.Etiquetas:focus {
+    background: red; /* Color diferente para el enlace activo */
+}
+
+/* Estilos responsivos */
+.Menu {
+    display: none;
+}
+
+@media (max-width: 500px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .Etiquetas {
+        margin: 10px 0;
+    }
+
+    .Menu {
+        background: gray;
+        display: inline-block;
+        padding: 10px;
+    }
+
+    .desaparece {
+        display: none;
+    }
+}
+
